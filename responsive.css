@@ -1,0 +1,190 @@
+
+/* responsive */
+/* X-Large devices (large desktops, less than 1400px) */
+@media (max-width: 1399.98px) {
+    header {
+    background-size: 600px;
+}
+.trusted-area{
+    background-size: 680px;
+}
+}
+
+
+/* Large devices (desktops, less than 1200px) */
+@media (max-width: 1199.98px){
+    header {
+    background-size: 450px !important;
+}
+    .banner h1 {
+    font-size: 35px;
+    line-height: 47px;
+}
+.btn {
+    padding: 9px 28px;
+}
+.range-heading p {
+    margin-top: 23px;
+    font-size: 16px;
+}
+.range-heading h2 {
+    font-size: 24px;
+    line-height: 36px;
+}
+.range-item h4 {
+    font-size: 18px;
+    margin-bottom: 10px;
+    margin-top: -4px;
+}
+.trusted-area {
+    background-size: 540px;
+}
+.question-section h1 {
+    font-size: 24px;
+    line-height: 40px;
+}.question-section ul li i {
+    height: 20px;
+    width: 20px;
+    line-height: 20px;
+}
+.question-section ul li {
+    font-size: 14px;
+}
+.social-link ul li {
+    height: 40px;
+    width: 40px;
+    line-height: 40px;
+}
+}
+
+
+/* Medium devices (tablets, less than 992px) */
+@media (max-width: 991.98px) {
+
+header {
+    background-size: 380px !important;
+}
+.banner {
+    padding-top: 100px;
+    padding-bottom: 100px;
+}
+.banner h1 {
+    font-size: 32px;
+}
+.banner p{
+    width: 93%;
+}
+.banner .btn {
+    font-size: 14px;
+    padding: 10px 29px;
+}
+.brand .col-sm {
+    padding: 33px !important;
+}
+.range-heading {
+    text-align: center;
+    margin-top: 50px;
+}
+.question-section h1 {
+    font-size: 19px;
+    line-height: 35px;
+}
+.question-section ul li {
+    font-size: 11px;
+}
+.question-section ul li i {
+    height: 15px;
+    width: 15px;
+    line-height: 15px;
+}
+.question-section ul li i {
+    font-size: 7px;
+}
+.trusted-area {
+    background-size: 400px;
+}
+.trusted-area .btn {
+    padding: 7px 17px;
+}
+.question-section h1 {
+    font-size: 15px;
+    line-height: 27px;
+}
+.social-link ul li {
+    height: 30px;
+    width: 30px;
+    line-height: 30px;
+}
+.footer-bar span{
+    width: 100%;
+}
+.footer-bar img {
+    width:0px;
+}
+}
+
+
+/* Small devices (landscape phones, less than 768px) */
+@media (max-width: 767.98px) {
+    header {
+    background: #37517E;
+    background-image: url();
+}
+.trusted-area {
+    background-size:0px;
+}
+.price-table{
+    margin-bottom: 23px;
+}
+.footer-menu ul li {
+    padding-bottom: 0px;}
+footer {
+    text-align: center;
+}
+footer.footer-menu {
+    border-bottom: 1px solid #dddddd26;
+    padding-top: 14px;
+}
+}
+
+
+/*  X-Small devices (portrait phones, less than 576px) */
+@media (max-width: 575.98px) {
+
+.banner h1 {
+    font-size: 28px !important;
+    line-height: 34px !important;
+    margin-top: 30px;
+}
+header p {
+    font-size: 16px;
+    line-height: 21px;
+}
+.brand .col-sm.col {
+    padding: 10px!important;
+}
+.banner {
+    margin-top: -100px;
+    text-align: center;
+}
+.range-item {
+    margin-top: 20px;
+}
+.trusted-area {
+    padding-top: 50px;
+    padding-bottom: 50px;
+    background-image: url();
+    text-align: center;
+}
+.members ul li {
+    margin-right: 17px;
+}
+.members a {
+    margin-right: 5px;
+}
+
+}
+
+
+/* XX-Large devices (larger desktops) */
+/* No media query since the xxl breakpoint has no upper bound on its width */
